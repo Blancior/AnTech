@@ -1,34 +1,39 @@
+p {
+  padding: 0 6px 0 6px;
+}
 .navbar {
   display: flex;
   background-color: dodgerblue;
   min-height: 70px;
   border-radius: 0 0 15px 15px;
-}
-.searchB {
-  border: black 2px solid;
-  position: relative;
-  top:7px;
 
 }
-.navbar-sectionLeft {
-  justify-content: flex-start;
-  padding: 20px;
-}
-.searchBar {
-  max-height: 50px;
-  position: relative;
-  top: 15px;
-  padding: 0 0 0 35%;
+  .searchB {
+    border: black 2px solid;
+    position: relative;
+    top:7px;
 
-}
-.searchInput {
-  width: 300px;
-}
-.userInfo {
-  background-color: antiquewhite;
-  position: relative;
-  left: 38%;
-  top: 12px;
-  border-radius: 15%;
-  max-height: 45px;
-}
+  }
+  .navbar-sectionLeft {
+    justify-content: flex-start;
+    padding: 20px;
+  }
+  .searchBar {
+    max-height: 50px;
+    position: relative;
+    top: 15px;
+    padding: 0 0 0 35%;
+
+  }
+  .searchInput {
+    width: 300px;
+  }
+  .userInfo {
+    background-color: antiquewhite;
+    position: relative;
+    left: 38%;
+    top: 13px;
+    border-radius: 15%;
+    max-height: 45px;
+
+  }
