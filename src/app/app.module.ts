@@ -6,17 +6,21 @@ import {BrowserAnimationsModule} from "@angular/platform-browser/animations";
 import {MatIconModule} from "@angular/material/icon";
 import { MainPageComponent } from './core/main-page/main-page.component';
 import {CoreModule} from "./core/core-module";
+import { AnTechComponent } from './core/an-tech/an-tech.component';
+import {MaterialModule} from "./material/material.module";
 @NgModule({
   declarations: [
     AppComponent,
-    MainPageComponent
+    MainPageComponent,
+    AnTechComponent
   ],
   imports: [
     BrowserModule,
     CoreModule,
     AppRoutingModule,
     BrowserAnimationsModule,
-    MatIconModule
+    MatIconModule,
+    MaterialModule
   ],
   providers: [],
   bootstrap: [AppComponent]

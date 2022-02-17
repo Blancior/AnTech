@@ -18,7 +18,6 @@
         "@schematics/angular:guard": {
         },
         "@schematics/angular:module": {
-          "spec": true
         },
         "@schematics/angular:pipe": {
           "spec": false
